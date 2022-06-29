@@ -176,7 +176,7 @@ addRole = () => {
       name: 'salary',
       message: "What is the salary of this role?",
       validate: addSalary => {
-        if ((addSalary)) {
+        if (addSalary) {
             return true;
         } else {
             console.log('Please enter a salary');
